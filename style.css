@@ -29,6 +29,55 @@ font-weights:
 - outfit: 400, 600, 700
 */
 
+body {
+  background-color: var(--stone-100);
+}
+
+main {
+  background-color: white;
+}
+
+figure {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "Young Serif", serif;
+  color: var(--stone-900);
+  font-weight: 400;
+}
+
+h2 {
+
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--rose-800);
+}
+
+p {
+  color: var(--stone-600);
+}
+
+.section-preparation {
+  background-color: var(--rose-50);
+  padding: 30px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
