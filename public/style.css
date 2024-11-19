@@ -73,6 +73,7 @@ li {
   padding-left: 16px;
 }
 
+/* Changes the color of the general list marker (brown) */
 li::marker {
   color: var(--brown-800);
   font-weight: 700;
@@ -102,6 +103,7 @@ span {
   border-radius: 10px;
 }
 
+/* Changes the color of the preparation list marker (rose) */
 .preparation-list li::marker {
   color: var(--rose-800);
 }
@@ -118,6 +120,7 @@ span {
   color: var(--brown-800);
 }
 
+/* Prevents first column from pushing the second */
 .steps-table {
   table-layout: fixed;
   width: 100%;
@@ -135,20 +138,21 @@ span {
   font-weight: 700;
 }
 
+/* Padding adds space on the left of first column */
 .steps-table td:first-child {
   padding-left: 30px;
   color: var(--stone-600);
   font-weight: 400;
 }
 
-.attribution {
+/* .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
 
 @media (min-width: 1440px) {
   body {
