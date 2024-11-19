@@ -108,7 +108,7 @@ span {
   color: var(--rose-800);
 }
 
-.steps {
+.steps:not(:last-child) {
   border-bottom: 1px solid var(--stone-150);
   padding-bottom: 35px;
 }
